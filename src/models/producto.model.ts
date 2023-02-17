@@ -7,9 +7,9 @@ import {Marca} from './marca.model';
 @model({
   settings: {
     foreignKeys: {
-      fk_id_marca_producto: {
+      fk_producto_id_producto: {
         name: 'fk_marca_id_producto',
-        entity: 'Producto',
+        entity: 'Marca',
         entityKey: 'id',
         foreignKey: 'id_marca',
       }
